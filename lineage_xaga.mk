@@ -16,8 +16,9 @@ $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 PRODUCT_DEVICE := xaga
 PRODUCT_NAME := lineage_xaga
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note11T Pro
+PRODUCT_BRAND := Redmi/POCO
+PRODUCT_MODEL := Redmi Note11T Pro/POCO X4 GT/Redmi K50i/Redmi Note11T Pro+/POCO X4 GT Pro/Redmi K50i Pro
+
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -32,4 +33,3 @@ TARGET_SCREEN_DENSITY := 440
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_SUPPORTS_QUICK_TAP := true
-WITH_GAPPS := true

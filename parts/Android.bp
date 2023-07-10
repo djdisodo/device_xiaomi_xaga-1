@@ -23,9 +23,3 @@ android_app {
     },
 }
 
-prebuilt_etc {
-    name: "gpu_optimizer.rc",
-    src: "gpu_optimizer.rc",
-    sub_dir: "init",
-    vendor: true,
-}
